@@ -6,7 +6,7 @@ async def hello_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     await update.message.reply_text("С Днём учителя ❤️")
 
 def main():
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    token = os.environ.get("8295260673:AAFRUzDSo5bN955Wo_zQNmkdHFq_1GryOVs")
     if not token:
         print("Ошибка: переменная окружения TELEGRAM_BOT_TOKEN не задана.")
         return
